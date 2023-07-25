@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #242424;
+ 
   padding: 10px;
   transition: background-color 0.4s;
-  font-size: 19px;
+  font-size: 17px;
+  
  
 }
 .navbar:hover {
@@ -16,13 +17,15 @@
   text-decoration: none;
   color: #caaf1b;
   font-weight: bold;
+  
 }
 
 .navbar-menu {
   list-style: none;
   display: flex;
-  width: 1238px;
+  width: 1167px;
   gap: 60px;
+  
 
 }
 
@@ -35,6 +38,7 @@
   text-decoration: none;
   color: #9d9d9d;
   cursor: pointer;
+  
 }
 .navbar-item:hover a {
   color: #000000;
@@ -56,10 +60,12 @@
 }
 
 .logo {
-  width: 60px;
+  width: 50px;
   height: auto;
   cursor: pointer;
+  margin-left: 50px;
 }
 .text {
   color: #caaf1b;
 }
+
